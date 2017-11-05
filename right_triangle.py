@@ -1,0 +1,20 @@
+def rtTriangle():
+    '''
+    objective : to print right triangle
+    approach: using print function to print asterisk strings
+    '''
+    print('*')
+    print("**")
+    print("***")
+
+def main():
+    '''
+    objective : to print right triangle
+    approach: to use rtTriangle function
+    '''
+    rtTriangle()
+    print('main ends')
+
+if __name__ == '__main__':
+    main()
+print('program ends')
